@@ -1,4 +1,5 @@
-
+增加参数
+CONFIG_TESTING_KERNEL=y
 #删除参数
 CONFIG_TARGET_ROOTFS_EXT4FS=n
 #增加组件
