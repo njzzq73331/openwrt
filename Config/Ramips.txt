@@ -1,4 +1,4 @@
-#RM2100
+#R3P R3G
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_ramips_mt7621_DEVICE_xiaomi_mi-router-3-pro=y
