@@ -1,5 +1,5 @@
 #云编译公用核心
-name: OWRT-CORE2
+name: LEDE-CORE
 
 on:
   #公用核心标识
@@ -101,7 +101,7 @@ jobs:
           cd ./owrt
 
           rm -rf ./tmp* ./.config*
-          cat $GITHUB_WORKSPACE/Config/$OWRT_TARGET.txt $GITHUB_WORKSPACE/Config/General2.txt >> .config
+          cat $GITHUB_WORKSPACE/Config/$OWRT_TARGET.txt $GITHUB_WORKSPACE/Config/General.txt >> .config
 
           $GITHUB_WORKSPACE/Scripts/Extras.sh
 
