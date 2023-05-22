@@ -90,11 +90,11 @@ jobs:
         run: |
           cd ./owrt
 
-          $GITHUB_WORKSPACE/Scripts/Settings.sh
+          $GITHUB_WORKSPACE/Scripts/Ramips-setting.sh
 
           cd ./package
 
-          $GITHUB_WORKSPACE/Scripts/full.sh
+          $GITHUB_WORKSPACE/Scripts/Ramips.sh
 
       - name: Custom Settings
         run: |
