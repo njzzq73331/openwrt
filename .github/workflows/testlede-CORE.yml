@@ -94,7 +94,7 @@ jobs:
 
           cd ./package
 
-          $GITHUB_WORKSPACE/Scripts/lede.sh
+          $GITHUB_WORKSPACE/Scripts/test.sh
 
       - name: Custom Settings
         run: |
